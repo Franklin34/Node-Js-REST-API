@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-mongoose.connect("mongodb://localhost/companydb", {
+mongoose.connect("mongodb://host.docker.internal:27017/companydb", {
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
